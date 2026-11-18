@@ -1,0 +1,4 @@
+interface:
+  display_name: "Java Quarkus"
+  short_description: "Implement version-aware Quarkus code with JUnit and Mockito"
+  default_prompt: "Use $java-quarkus to detect the Java and Quarkus versions first, follow the codebase and official guides, and write JUnit 5 plus Mockito unit tests with at least 80% coverage."
