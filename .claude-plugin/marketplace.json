@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "java-quarkus",
+  "description": "Java Quarkus implementation plugin for AI coding agents.",
+  "owner": {
+    "name": "Reginaldo (rmsaitam)",
+    "url": "https://github.com/rmsaitam/skill-java-quarkus"
+  },
+  "plugins": [
+    {
+      "name": "java-quarkus",
+      "description": "Generates and refactors version-aware Java and Quarkus code following official documentation, established codebase patterns, and JUnit 5 plus Mockito unit tests with an 80% coverage gate.",
+      "source": "./",
+      "category": "development"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "java-quarkus",
+  "version": "0.1.0",
+  "description": "Generates and refactors version-aware Java and Quarkus code following official documentation, established codebase patterns, and JUnit 5 plus Mockito unit tests with an 80% coverage gate.",
+  "author": {
+    "name": "Reginaldo (rmsaitam)",
+    "url": "https://github.com/rmsaitam/skill-java-quarkus"
+  },
+  "homepage": "https://github.com/rmsaitam/skill-java-quarkus",
+  "repository": "https://github.com/rmsaitam/skill-java-quarkus",
+  "license": "MIT",
+  "keywords": [
+    "java",
+    "quarkus",
+    "jakarta",
+    "cdi",
+    "panache",
+    "mutiny",
+    "junit",
+    "mockito",
+    "coverage"
+  ]
+}

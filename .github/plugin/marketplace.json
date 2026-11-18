@@ -1,0 +1,18 @@
+{
+  "name": "java-quarkus",
+  "owner": {
+    "name": "Reginaldo (rmsaitam)"
+  },
+  "metadata": {
+    "description": "Java Quarkus implementation plugin for AI coding agents.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "java-quarkus",
+      "description": "Generates and refactors version-aware Java and Quarkus code following official documentation, established codebase patterns, and JUnit 5 plus Mockito unit tests with an 80% coverage gate.",
+      "version": "0.1.0",
+      "source": "."
+    }
+  ]
+}

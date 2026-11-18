@@ -1,0 +1,42 @@
+{
+  "name": "java-quarkus",
+  "version": "0.1.0",
+  "description": "Generates and refactors version-aware Java and Quarkus code following official documentation, established codebase patterns, and JUnit 5 plus Mockito unit tests with an 80% coverage gate.",
+  "author": {
+    "name": "Reginaldo (rmsaitam)",
+    "url": "https://github.com/rmsaitam/skill-java-quarkus"
+  },
+  "homepage": "https://github.com/rmsaitam/skill-java-quarkus",
+  "repository": "https://github.com/rmsaitam/skill-java-quarkus",
+  "license": "MIT",
+  "keywords": [
+    "java",
+    "quarkus",
+    "jakarta",
+    "cdi",
+    "panache",
+    "mutiny",
+    "junit",
+    "mockito",
+    "coverage"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Java Quarkus",
+    "shortDescription": "Implement version-aware Quarkus code with JUnit and Mockito",
+    "longDescription": "Detects the Java and Quarkus versions from pom.xml or build.gradle before suggesting any code, follows the codebase architecture and official Quarkus guides, respects CDI scopes, the imperative and reactive execution models, Panache transaction boundaries, configuration and resilience patterns, and writes JUnit 5 plus Mockito unit tests with an 80% coverage gate.",
+    "developerName": "Reginaldo (rmsaitam)",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://github.com/rmsaitam/skill-java-quarkus",
+    "defaultPrompt": [
+      "Implement this feature following the Java and Quarkus versions detected in the project",
+      "Review my Quarkus code against the official guides and codebase conventions",
+      "Write JUnit 5 and Mockito unit tests with at least 80% coverage"
+    ],
+    "brandColor": "#8749FF",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.svg",
+    "screenshots": []
+  }
+}

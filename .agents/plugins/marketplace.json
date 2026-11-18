@@ -1,0 +1,21 @@
+{
+  "name": "java-quarkus",
+  "interface": {
+    "displayName": "Java Quarkus"
+  },
+  "plugins": [
+    {
+      "name": "java-quarkus",
+      "description": "Generates and refactors version-aware Java and Quarkus code following official documentation, established codebase patterns, and JUnit 5 plus Mockito unit tests with an 80% coverage gate.",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
