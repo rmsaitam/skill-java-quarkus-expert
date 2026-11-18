@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "java-quarkus",
+  "description": "Generates and refactors version-aware Java and Quarkus code following official documentation, established codebase patterns, and JUnit 5 plus Mockito unit tests with an 80% coverage gate."
+}
