@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+    id 'io.quarkus' version '2.16.12.Final'
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = JavaVersion.VERSION_11
+targetCompatibility = JavaVersion.VERSION_11
+
+dependencies {
+    implementation 'io.quarkus:quarkus-resteasy-reactive'
+    implementation enforcedPlatform('io.quarkus:quarkus-bom:2.16.12.Final')
+    testImplementation 'io.quarkus:quarkus-junit5'
+    testImplementation 'org.mockito:mockito-core'
+}
