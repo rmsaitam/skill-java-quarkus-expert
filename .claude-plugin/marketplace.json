@@ -4,7 +4,7 @@
   "description": "Java Quarkus implementation plugin for AI coding agents.",
   "owner": {
     "name": "Reginaldo (rmsaitam)",
-    "url": "https://github.com/rmsaitam/skill-java-quarkus"
+    "url": "https://github.com/rmsaitam/skill-java-quarkus-expert"
   },
   "plugins": [
     {

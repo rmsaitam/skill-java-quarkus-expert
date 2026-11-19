@@ -1,6 +1,6 @@
 # Java Quarkus
 
-[![skills.sh](https://skills.sh/b/rmsaitam/skill-java-quarkus)](https://skills.sh/rmsaitam/skill-java-quarkus)
+[![skills.sh](https://skills.sh/b/rmsaitam/skill-java-quarkus-expert)](https://skills.sh/rmsaitam/skill-java-quarkus-expert)
 
 A version-aware Java and Quarkus implementation skill for coding agents. Before suggesting any dependency, annotation or configuration, the skill inspects `pom.xml`, `build.gradle` or `build.gradle.kts` to identify the exact Java version, Quarkus version and installed extensions. If no build descriptor is available, it stops and asks for the descriptor or the versions instead of guessing.
 
@@ -20,15 +20,15 @@ The skill follows the conventions already present in the codebase and the offici
 ## Install
 
 ```bash
-npx skills add rmsaitam/skill-java-quarkus
-npx skills add rmsaitam/skill-java-quarkus -g -y
-npx skills add rmsaitam/skill-java-quarkus --list
+npx skills add rmsaitam/skill-java-quarkus-expert
+npx skills add rmsaitam/skill-java-quarkus-expert -g -y
+npx skills add rmsaitam/skill-java-quarkus-expert --list
 ```
 
 Claude Code:
 
 ```text
-/plugin marketplace add rmsaitam/skill-java-quarkus
+/plugin marketplace add rmsaitam/skill-java-quarkus-expert
 /plugin install java-quarkus
 ```
 

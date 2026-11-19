@@ -4,10 +4,10 @@
   "description": "Generates and refactors version-aware Java and Quarkus code following official documentation, established codebase patterns, and JUnit 5 plus Mockito unit tests with an 80% coverage gate.",
   "author": {
     "name": "Reginaldo (rmsaitam)",
-    "url": "https://github.com/rmsaitam/skill-java-quarkus"
+    "url": "https://github.com/rmsaitam/skill-java-quarkus-expert"
   },
-  "homepage": "https://github.com/rmsaitam/skill-java-quarkus",
-  "repository": "https://github.com/rmsaitam/skill-java-quarkus",
+  "homepage": "https://github.com/rmsaitam/skill-java-quarkus-expert",
+  "repository": "https://github.com/rmsaitam/skill-java-quarkus-expert",
   "license": "MIT",
   "keywords": [
     "java",
@@ -28,7 +28,7 @@
     "developerName": "Reginaldo (rmsaitam)",
     "category": "Developer Tools",
     "capabilities": ["Interactive", "Read", "Write"],
-    "websiteURL": "https://github.com/rmsaitam/skill-java-quarkus",
+    "websiteURL": "https://github.com/rmsaitam/skill-java-quarkus-expert",
     "defaultPrompt": [
       "Implement this feature following the Java and Quarkus versions detected in the project",
       "Review my Quarkus code against the official guides and codebase conventions",
